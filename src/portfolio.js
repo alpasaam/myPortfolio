@@ -123,15 +123,16 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Brigham Young University",
-      logo: require("./assets/images/harvardLogo.png"), // TODO: Change the logo to BYU's
+      logo: require("./assets/images/BYULogo.png"), // TODO: Change the logo to BYU's
       subHeader: "Bachlor of Science in Computer Science",
       duration: "Graduation April 2027",
-      desc: "Participated in the research of XXX and published 3 papers.", // TODO: Change
+      desc: "GPA 3.81 while working 20 hr/week",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "BYU President's Leadership Council Full Scholarship",
+        "V.P. of BYU Developers Academic Association & Association for Computing Machinery Officer",
+        "Software Construction, Algorithm Design, Web Programming, Computer Systems, Discrete Structure"
       ]
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
