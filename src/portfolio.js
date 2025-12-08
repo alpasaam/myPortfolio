@@ -254,7 +254,7 @@ const achievementSection = {
       title: "V.P. of BYU Developers & ACM Officer",
       subtitle:
         "Serving as Vice President of BYU Developers Academic Association and Officer of the Association for Computing Machinery, promoting tech education and community engagement.",
-      image: require("./assets/images/BYULogo.png"),
+      image: require("./assets/images/BYUDevLogo.png"),
       imageAlt: "BYU Developers Logo",
       footerLink: []
     },
