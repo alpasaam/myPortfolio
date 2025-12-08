@@ -23,7 +23,7 @@ const greeting = {
   username: "Saam Naeini",
   title: "Hi all, I'm Saam",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 specializing in building web applications with Java, Python, React, Angular, and cloud technologies. Currently working on innovative solutions at BYU and co-founding AI-driven learning platforms."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -48,11 +48,11 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for web applications using React and Angular"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build scalable backend systems with Java, Python, and C++"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design and implement databases with SQL and deploy applications on AWS cloud infrastructure"
     )
   ],
 
@@ -61,19 +61,23 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -81,8 +85,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "swift",
@@ -93,24 +109,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,7 +124,8 @@ const educationInfo = {
     {
       schoolName: "Brigham Young University",
       logo: require("./assets/images/BYULogo.png"), // TODO: Change the logo to BYU's
-      subHeader: "Bachlor of Science in Computer Science",
+      subHeader:
+        "Bachelor of Science in Computer Science, Emphasis in Software Engineering",
       duration: "Graduation April 2027",
       desc: "GPA 3.81 while working 20 hr/week",
       descBullets: [
@@ -171,29 +172,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "FHSS Web Developer",
+      company: "FHSS Computing Services",
+      companylogo: require("./assets/images/BYULogo.png"), // TODO: Add FHSS logo
+      date: "Feb 2025 – Present",
+      desc: "Redesigned the BYU MRI Facility website, adding secure online forms and an event scheduling calendar used by over 300 monthly users. Implemented role-based access control and FERPA-compliant safeguards to protect sensitive data.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Increased form and scheduling speed by 70%, significantly reducing admin time",
+        "Developed a scholarship management platform enabling 2000+ students to submit 7+ applications each and faculty to review and award scholarships efficiently",
+        "Built and maintained applications using Mendix, PostgreSQL, APIs, and Git, while performing full-stack development including comprehensive testing"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cofounder & Technical Lead",
+      company: "GRAID",
+      companylogo: require("./assets/images/graidLogo.png"),
+      date: "Aug 2025 – Present",
+      desc: "Cofounded Graid, an AI-driven learning platform that personalizes education and provides instructor analytics.",
+      descBullets: [
+        "Designed core system architecture and built prototypes integrating machine learning with scalable web apps",
+        "Collaborated on product vision, early customer outreach, and cloud-based deployment"
+      ]
     }
   ]
 };
@@ -210,29 +209,24 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SIGNIFICANT PROJECTS AND STARTUPS I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/graidLogo.png"),
+      projectName: "GRAID",
+      projectDesc:
+        "AI-driven learning platform that personalizes education and provides instructor analytics. Cofounded as Technical Lead, designing core system architecture and building prototypes integrating machine learning with scalable web apps.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        // Add links when available
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/BYULogo.png"), // TODO: Add chess project image
+      projectName: "Multiplayer Chess Console Application",
+      projectDesc:
+        "Built a real-time multiplayer chess game with both player and spectator modes. Utilized WebSockets to synchronize game states seamlessly, integrated SQL to store match history and player data, and designed APIs to handle move validation and manage sessions.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        // Add GitHub or demo links when available
       ]
     }
   ],
@@ -243,58 +237,42 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Leadership 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Academic achievements, leadership roles, and notable accomplishments during my time at BYU",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "BYU President's Leadership Council Full Scholarship",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Awarded full scholarship through BYU President's Leadership Council for academic excellence and leadership potential.",
+      image: require("./assets/images/BYULogo.png"),
+      imageAlt: "BYU Logo",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "V.P. of BYU Developers & ACM Officer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Serving as Vice President of BYU Developers Academic Association and Officer of the Association for Computing Machinery, promoting tech education and community engagement.",
+      image: require("./assets/images/BYULogo.png"),
+      imageAlt: "BYU Developers Logo",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "President of BYU Esports Club",
+      subtitle:
+        "Leading 1000 students as President of BYU Esports Club, organizing events and fostering competitive gaming community.",
+      image: require("./assets/images/BYULogo.png"),
+      imageAlt: "BYU Esports Logo",
+      footerLink: []
+    },
+    {
+      title: "Multilingual Proficiency",
+      subtitle:
+        "Native fluency in Mandarin Chinese, Cantonese Chinese, and English, enabling effective cross-cultural communication.",
+      image: require("./assets/images/BYULogo.png"),
+      imageAlt: "Languages",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -309,19 +287,19 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://example.com/blog-post-1",
+      title: "Example Blog Post Title",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "This is a placeholder blog post description. Replace with your actual blog content when ready."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://example.com/blog-post-2",
+      title: "Another Example Blog Post",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Another placeholder blog post description. Update with your real blog content."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -334,13 +312,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Example Talk Title",
+      subtitle: "Example Event Name - Location, Year",
+      slides_url: "https://example.com/slides",
+      event_url: "https://example.com/event"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -351,9 +329,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/example-podcast/embed/episodes/Example-Episode-Title/episode-id"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,18 +347,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "(385) 831-9970",
+  email_address: "naeinisaam@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "your-twitter-username", //Replace "your-twitter-username" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
