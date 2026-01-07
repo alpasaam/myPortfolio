@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.403e0a2a.js",
+    "main.js": "/static/js/main.96d8b622.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.d71539bf.chunk.js": "/static/js/64.d71539bf.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/graidLogo.png": "/static/media/graidLogo.63cf66a23fd5732f2311.png",
     "static/media/BYULogo.png": "/static/media/BYULogo.d027f56deec18814ee43.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.80310d91acf8f57e5e25.pdf",
+    "static/media/resume.pdf": "/static/media/resume.662e5eff1c792fdc984d.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/BYUDevLogo.png": "/static/media/BYUDevLogo.e5c88f0545097b253399.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -19,7 +19,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.403e0a2a.js.map": "/static/js/main.403e0a2a.js.map",
+    "main.96d8b622.js.map": "/static/js/main.96d8b622.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.d71539bf.chunk.js.map": "/static/js/64.d71539bf.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.403e0a2a.js"
+    "static/js/main.96d8b622.js"
   ]
 }
