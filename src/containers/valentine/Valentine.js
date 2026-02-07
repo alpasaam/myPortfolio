@@ -102,10 +102,16 @@ const Valentine = () => {
       {!envelopeOpen ? (
         <div
           className={`valentine-envelope-wrapper ${envelopeOpening ? "valentine-envelope-wrapper--opening" : ""}`}
-          onClick={handleEnvelopeClick}
         >
           <span className="valentine-envelope-to">To Leiah &lt;3</span>
-          <div className="valentine-envelope">
+          <div
+            className="valentine-envelope"
+            onClick={handleEnvelopeClick}
+            onKeyDown={(e) => e.key === "Enter" && handleEnvelopeClick()}
+            role="button"
+            tabIndex={0}
+            aria-label="Open letter"
+          >
             <div className="valentine-envelope-flap" />
             <div className="valentine-envelope-body">
               <div className="valentine-envelope-stamp" aria-hidden="true">
